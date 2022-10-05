@@ -6,7 +6,7 @@ import Link from "next/link";
 const Rsvp: NextPage = () => {
   return (
     <>
-      <video autoPlay muted loop className={styles.video}>
+      <video playsinline autoPlay muted loop className={styles.video}>
         <source src="/videos/background.mp4" />
       </video>
       <div className={styles.container}>
