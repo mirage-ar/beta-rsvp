@@ -27,16 +27,16 @@ const Rsvp: NextPage = () => {
           <div className={styles.bottomText}>
             <div className={styles.leftText}>
               <div className={styles.times}>
+                <p>2:00</p>
+                <p>2:45</p>
                 <p>3:00</p>
-                <p>3:15</p>
-                <p>3:30</p>
-                <p>4:30</p>
+                <p>4:00</p>
               </div>
               <div className={styles.activities}>
                 <p>ARRIVAL</p>
                 <p>OPENING REMARKS</p>
                 <p>TREASURE HUNT</p>
-                <p>DJ SETS BY...</p>
+                <p>DJ SETS BY SPECIAL GUESTS</p>
               </div>
             </div>
             <div className={styles.rsvpContainer}>
