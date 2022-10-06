@@ -20,7 +20,7 @@ const Rsvp: NextPage = () => {
             <img src="/images/M.png" />
             <div className={styles.inviteText}>
               <p>SOMEWHERE BETWEEN CODE + CONCRETE IS A CANVAS.</p>
-              <p>ON TUESDAY, OCTOBER 25, 2022 THAT CANVAS WILL BE ACTIVATED.</p>
+              <p>ON TUESDAY, OCTOBER 25, 2022 &#91;NYC&#93; THAT CANVAS WILL BE ACTIVATED.</p>
               <p>AND YOU&#39;RE INVITED.</p>
             </div>
           </div>
