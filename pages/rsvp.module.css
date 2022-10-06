@@ -5,13 +5,21 @@
   justify-content: space-between;
   height: 100vh;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+.background {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .video {
   background-color: black;
-  z-index: -1;
+  z-index: -2;
   position: fixed;
   object-fit: cover;
   width: 100%;
@@ -277,5 +285,85 @@
 
   .rsvp {
     height: 30px;
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+  .topText {
+    font-size: 20vw;
+    padding: 0px;
+  }
+
+  .infoCard {
+    width: 70%;
+  }
+
+  .cardTitle {
+    width: 95%;
+  }
+
+  .bottomText {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .leftText {
+    width: 57%;
+  }
+
+  .rsvp {
+    padding-left: 10px;
+    width: 120px;
+  }
+
+  .bottomTitle {
+    flex-direction: column;
+  }
+
+  .bottomTitle p {
+    font-size: 20vw;
+  }
+
+  .bottomButton {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 15px;
+  }
+
+  .inviteText p {
+    margin: 0px;
+    font-size: 10px;
+  }
+
+  .topTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 15px;
+  }
+
+  .times p {
+    font-size: 10px;
+  }
+
+  .activities p {
+    font-size: 10px;
+  }
+
+  .rsvp p {
+    font-size: 10px;
+  }
+
+  .rsvp {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .infoCard {
+    width: 90%;
   }
 }

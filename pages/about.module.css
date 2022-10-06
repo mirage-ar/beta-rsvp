@@ -1,7 +1,7 @@
 .container  {
     background-color: black;
     background-attachment: fixed;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
     justify-content: space-between;
     width: 100vw;
     height: 50px;
-    padding: 20px;
+    padding: 20px 20px 0;
 }
 
 .topBarRight{ 
@@ -68,7 +68,7 @@
     width: 30%;
     font-family: "Helvetica-Monospaced";
     font-size: 15px;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 @media screen and (max-width: 1400px) {
