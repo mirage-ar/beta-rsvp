@@ -32,12 +32,12 @@ const About: NextPage = () => {
           </p>
           <p>
             Most physical arenas prohibit our curiosity and creativity, and
-            while digital media empowers individuals to create, he medium has us
+            while digital media empowers individuals to create, the medium has us
             glued to our screens. We believe the solution lies in merging the
             two.
           </p>
           <p>
-            Enter Mirage—a platform to deploy and discover geolocated AR NFTs.
+            Enter Mirage — a platform to deploy and discover geolocated AR NFTs.
           </p>
           <p>
             We’re not interested in building a digital replica of our day-
