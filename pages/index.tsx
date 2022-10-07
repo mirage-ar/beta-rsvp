@@ -35,7 +35,7 @@ const Rsvp: NextPage = () => {
               <div className={styles.activities}>
                 <p>ARRIVAL</p>
                 <p>OPENING REMARKS</p>
-                <p>TREASURE HUNT</p>
+                <p>THE HUNT</p>
                 <p>DJ SETS BY SPECIAL GUESTS</p>
               </div>
             </div>
